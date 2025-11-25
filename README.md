@@ -1,2 +1,2 @@
 # Jewellery-Catalog
-Python, Dango
+Python
