@@ -1,0 +1,12 @@
+flask
+flask-cors
+torch
+ftfy
+regex
+tqdm
+numpy
+pandas
+pillow
+scikit-learn
+git+https://github.com/openai/CLIP.git
+openpyxl

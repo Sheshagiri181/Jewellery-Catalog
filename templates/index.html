@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Azure Jouel</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <h1>Azure Jouel</h1>
+</div>
+
+<div class="hero-section">
+    <h2>Elegant & Luxury Style</h2>
+    <p>Welcome to your New Favorite Jewelry Collection.</p>
+
+    <label class="upload-box" for="uploadInput">Click here to upload jewelry image</label>
+    <input id="uploadInput" type="file" accept="image/*">
+</div>
+
+<!-- script placed at bottom -->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

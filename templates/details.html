@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jewelry Details</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <h1>Azure Jouel</h1>
+</div>
+
+<div class="container">
+
+    <div>
+        <img id="uploadedImage" src="" alt="Uploaded / Matched Image">
+    </div>
+
+    <div class="details-box">
+        <h2>Jewelry Details</h2>
+        <div id="detailsArea">Loading...</div>
+    </div>
+
+</div>
+
+<div class="top-section">
+    <h3>Top 5 Similar Jewelry</h3>
+    <div id="top5Container"></div>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
